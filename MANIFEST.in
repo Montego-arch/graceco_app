@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include graceco_app *.css
+recursive-include graceco_app *.csv
+recursive-include graceco_app *.html
+recursive-include graceco_app *.ico
+recursive-include graceco_app *.js
+recursive-include graceco_app *.json
+recursive-include graceco_app *.md
+recursive-include graceco_app *.png
+recursive-include graceco_app *.py
+recursive-include graceco_app *.svg
+recursive-include graceco_app *.txt
+recursive-exclude graceco_app *.pyc
